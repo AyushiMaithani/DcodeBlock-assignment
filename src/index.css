@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+*{
+  font-family: "PROXON";
+}
+
+body{
+    background: #000;
+    color: white;
+}
+
