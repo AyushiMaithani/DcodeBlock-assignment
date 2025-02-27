@@ -13,8 +13,8 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-center mt-10 text-sm">
       <ul
-        className="flex w-[60vw] justify-center space-x-5  border-[#DFDFDF1A] rounded-md bg-[#28083A]"
-        style={{ boxShadow: "0 0 10px white" }}
+        className="flex w-[60vw] justify-center space-x-5  border-[#DFDFDF1A] rounded-lg bg-[#28083A]"
+        style={{ boxShadow: "0 0 4px white" }}
       >
         {navElements.map((navItem, index) => (
           <li key={index}>
