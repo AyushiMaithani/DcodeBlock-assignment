@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo.png";
 
 const Header = () => {
   return (<>
-    <div className="flex items-center justify-between p-4 mx-24">
+    <div className="flex items-center justify-between px-20 py-4 bg-black">
       <img src={logo} alt="Logo" />
       <button className="px-4 py-2 text-white rounded flex items-center ">
         <svg xmlns="http://www.w3.org/2000/svg" width="150" height="53" viewBox="0 0 150 53" fill="none">
