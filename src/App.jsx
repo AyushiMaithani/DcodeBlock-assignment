@@ -4,6 +4,7 @@ import logoHindia from './assets/images/hIndialogo.png'
 import Navbar from './components/Navbar';
 import bg1 from './assets/images/bg.png'
 import Hero from './components/Hero'
+import Marquee from './components/Marquee';
 
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
         <Navbar/>
         </div>
         <Hero/>
-        
+        <Marquee/>
 
       </div>
     </>
