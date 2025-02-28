@@ -13,7 +13,7 @@ function Marquee() {
   ];
 
   return (
-    <div className='overflow-hidden flex font-mono mt-12 font-extrabold bg-white whitespace-nowrap top-36 lg:top-64'>
+    <div className='overflow-hidden flex font-mono mt-20 font-extrabold bg-white whitespace-nowrap top-36 lg:top-64'>
       <motion.div 
         initial={{ x: "0" }}
         animate={{ x: "-100%" }} 

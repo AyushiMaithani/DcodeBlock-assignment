@@ -37,7 +37,7 @@ const Hero = () => {
         February 28 - September 28
       </div>
 
-      <div className="flex flex-wrap justify-center items-center gap-4 mb-12 tracking-widest">
+      <div className="flex flex-wrap justify-center items-center gap-4 mb-5 tracking-widest">
         <div className="text-3xl" style={{ fontFamily: "Geo" }}>
           <span className="text-orange-500 font-bold">$150+</span> Price Pool
         </div>

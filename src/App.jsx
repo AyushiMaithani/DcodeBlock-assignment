@@ -10,7 +10,7 @@ import Stats from './components/Stats';
 
 const App = () => {
   return (
-    <>
+    <div className='h-full w-full overflow-hidden'>
       <Header />
       <div className='h-[100vh]' style={{backgroundImage:`url(${bg1})`}}>
       <div className='flex flex-row items-center ml-28 gap-4'>
@@ -22,7 +22,7 @@ const App = () => {
 
       </div>
       <Stats/>
-    </>
+    </div>
   );
 }
 
