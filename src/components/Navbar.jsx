@@ -3,12 +3,12 @@ import Button from './shared/Button';
 
 const Navbar = () => {
     const navElements = [
-        { label: "Overview", active: true },
-        { label: "Create Team", active: false },
-        { label: "Prizes & Sponsors", active: false },
-        { label: "FAQs", active: false },
-        { label: "Judging & Rules", active: false },
-        { label: "Resources", active: false },
+        { label: "Overview"},
+        { label: "Create Team"},
+        { label: "Prizes & Sponsors"},
+        { label: "FAQs" },
+        { label: "Judging & Rules"},
+        { label: "Resources"},
       ];
   return (
     <nav className="flex items-center justify-center mt-10 text-sm">
@@ -16,9 +16,9 @@ const Navbar = () => {
         className="flex w-[60vw] justify-center space-x-5  border-[#DFDFDF1A] rounded-lg bg-[#28083A]"
         style={{ boxShadow: "0 0 4px white" }}
       >
-        {navElements.map((navItem, index) => (
+        {navElements.map((navItem, index,active) => (
           <li key={index}>
-            <Button text={navItem.label} />
+            <Button text={navItem.label} active={active} />
           </li>
         ))}
       </ul>

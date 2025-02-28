@@ -9,3 +9,30 @@ body{
     color: white;
 }
 
+.button:hover .button-path-1 {
+  fill: #B026FF; 
+}
+
+.button:hover .button-path-2 {
+  stroke-width: 4; 
+}
+
+.button:hover .button-text {
+  text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF, 0 0 30px #FFFFFF; /* Apply white glow effect */
+}
+
+.button.active .button-path-1 {
+  fill: #B026FF;
+}
+
+.button.active .button-path-2 {
+  stroke-width: 4;
+}
+
+.button.active .button-text {
+  text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF, 0 0 30px #FFFFFF;
+}
+
+.button.active {
+  transform: scale(0.98);
+}
