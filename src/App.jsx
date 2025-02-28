@@ -9,10 +9,9 @@ import Stats from './components/Stats';
 
 const App = () => {
   return (
-    <div className='h-full w-full overflow-hidden'>
+    <div style={{backgroundImage:`url(${bg1})`}} className='h-full w-full overflow-hidden'>
       <Header />
-      <div className='h-[100vh]' style={{backgroundImage:`url(${bg1})`}
-    }>
+      <div className='h-[100vh]' >
       <div className="flex flex-col sm:flex-row items-center justify-center sm:ml-28 gap-4">
           <img className="mt-10 sm:mt-12 h-12 sm:h-16" src={logoHindia} alt="Logo" />
           <Navbar />
