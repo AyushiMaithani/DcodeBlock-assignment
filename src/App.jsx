@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import bg1 from './assets/images/bg.png'
 import Hero from './components/Hero'
 import Marquee from './components/Marquee';
+import Stats from './components/Stats';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Marquee/>
 
       </div>
+      <Stats/>
     </>
   );
 }
