@@ -11,7 +11,7 @@ import Marquee from './Marquee'
 const Stats = () => {
   return (
     <div 
-      className='relative' 
+      className='relative mt-40 sm:mt-0' 
       style={{
         backgroundImage:`url(${bg2})`,
       }}
